@@ -6,5 +6,13 @@ export default {
         password: process.env.DB_PASS,
         host: process.env.DB_HOST,
         database: process.env.DB_SCHEMA
+    },
+    auth: {
+        secret: process.env.SECRET,
+        sk_key: process.env.sk_key
+    },
+    apiKeys: {
+        stripe: process.env.STRIPE,
+        
     }
 }
